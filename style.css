@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-menu {
+    width: 245px;
+}
+
+.side-menu ul li {
+    margin-top: 20px;
+    list-style: none;
+    display: inline-flex;
+    width: 130px;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-bar-link{
+    text-decoration: none;
+    color: black;
+    margin-left: 8px;
+    font-family: "Century Gothic";
+    
+}
+
+.side-menu ul li:hover {
+    background-color: #EEEEEE;
+    border-radius: 8px;
+}
+
+.nav-bar-span {
+    margin-left: 30px;
+}
+
+i {
+    margin-left: 5px;
+}
+
+nav {
+    flex: left;
+    border-right: 2px solid #EEEEEE;
+    position: sticky;
+}
+
+.side-sponsor {
+    width: 350px;
+    height: 500px;
+    flex: 1 350px;
+}
+
+.main-content {
+    width: 800px;
+    flex: 3 800px;
+    position: flex;
+    justify-content: center;
+}
+
+.post-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post-container img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.author-description{
+    font-family: "Century Gothic";
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+.author-comment{
+    font-family: "Century Gothic";
+    font-size: small;
+}
+
+.add-comment {
+    width: 450px;
+}
