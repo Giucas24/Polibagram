@@ -96,3 +96,9 @@ nav {
 .add-comment {
     width: 450px;
 }
+
+aside {
+    flex: left;
+    border-left: 2px solid #EEEEEE;
+    position: sticky;
+}
