@@ -34,7 +34,7 @@ body {
 }
 
 .side-menu ul li:hover {
-    background-color: #EEEEEE;
+    border: 1px solid black;
     border-radius: 8px;
 }
 
