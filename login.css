@@ -67,3 +67,8 @@ input {
     border-radius: 8px;
     
 }
+
+.login-link {
+    text-decoration: none;
+    color: black;
+}
