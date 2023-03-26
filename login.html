@@ -13,14 +13,28 @@
     <main>
         <div class="main-content">
             <div class="login-container">
+                <h4 class="init-text">Login</h4>
                 <form method="post" action="index.html">
-                    <h4 class="init-text">Login</h4>
+                    
 
                     <input class="insert-cred" type="text" placeholder="Username">
 
                     <input class="insert-cred" type="password" placeholder="Password">
 
-                    <a class="login-link" href="./index.html"><input class="submit-button" type="submit" value="Login"></a>
+                    <div class="check-psw-container">
+                        <label  class="checkbox" for="checkbox-id">
+                            <input type="checkbox" class="checkbox-input" name="remember-me" id="checkbox-id">
+                            <div class="checkbox-box"></div>
+                            <p class="checkbox-text">Ricordami</p>
+                        </label>
+
+                            <a class="forget-psw" href="./forget-psw.html">Password dimenticata?</a>
+                        
+                    </div>
+
+                    <div class="button-container">
+                        <a class="login-link" href="./index.html"><input class="submit-button" type="submit" value="Login"></a>
+                    </div>
                 </form>
             </div>
         </div>
